@@ -1,2 +1,7 @@
-*.ipynb
-test*
+playground*.ipynb
+test*.csv
+test*.ipynb
+test*.xlsx
+/venv
+/.vscode
+/intputs
