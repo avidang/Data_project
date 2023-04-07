@@ -4,4 +4,4 @@ test*.ipynb
 test*.xlsx
 /venv
 /.vscode
-/intputs
+/inputs
