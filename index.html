@@ -1,111 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    /* Style the header */
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      text-align: left;
-      padding: 8px;
-    }
-    tr:nth-child(even) {background-color: #f2f2f2;}
-    th {
-      background-color: #4CAF50;
-      color: white;
-    }
-  </style>
-</head>
-<body>
-  <table border="1" class="dataframe">
-    <thead>
-      <tr style="text-align: right;">
-        <th></th>
-        <th>backers_count</th>
-        <th>usd_pledged</th>
-        <th>SuccessfulBool</th>
-        <th>usd_goal</th>
-        <th>cluster</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>count</th>
-        <td>20632.0</td>
-        <td>20632.0</td>
-        <td>20632.0</td>
-        <td>20632.0</td>
-        <td>20632.0</td>
-      </tr>
-      <tr>
-        <th>mean</th>
-        <td>183.7</td>
-        <td>20915.9</td>
-        <td>0.3</td>
-        <td>87721.2</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <th>std</th>
-        <td>1222.0</td>
-        <td>115471.7</td>
-        <td>0.5</td>
-        <td>1284944.9</td>
-        <td>0.3</td>
-      </tr>
-      <tr>
-        <th>min</th>
-        <td>0.0</td>
-        <td>0.0</td>
-        <td>0.0</td>
-        <td>0.7</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <th>25%</th>
-        <td>2.0</td>
-        <td>25.0</td>
-        <td>0.0</td>
-        <td>4000.0</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <th>50%</th>
-        <td>12.0</td>
-        <td>716.3</td>
-        <td>0.0</td>
-        <td>13750.0</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <th>75%</th>
-        <td>63.0</td>
-        <td>6004.6</td>
-        <td>1.0</td>
-        <td>45247.9</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <th>max</th>
-        <td>105857.0</td>
-        <td>6225355.0</td>
-        <td>1.0</td>
-        <td>100000000.0</td>
-        <td>5.0</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* Style the header */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      th {
+        background-color: #4caf50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" class="dataframe">
+      <thead>
+        <tr style="text-align: right">
+          <th></th>
+          <th>usd_goal</th>
+          <th>usd_pledged</th>
+          <th>SuccessfulBool</th>
+          <th>backers_count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>count</th>
+          <td>2.063200e+04</td>
+          <td>2.063200e+04</td>
+          <td>20632.000000</td>
+          <td>20632.000000</td>
+        </tr>
+        <tr>
+          <th>mean</th>
+          <td>8.772124e+04</td>
+          <td>2.091591e+04</td>
+          <td>0.291683</td>
+          <td>183.675843</td>
+        </tr>
+        <tr>
+          <th>std</th>
+          <td>1.284945e+06</td>
+          <td>1.154717e+05</td>
+          <td>0.454548</td>
+          <td>1222.012658</td>
+        </tr>
+        <tr>
+          <th>min</th>
+          <td>7.022768e-01</td>
+          <td>0.000000e+00</td>
+          <td>0.000000</td>
+          <td>0.000000</td>
+        </tr>
+        <tr>
+          <th>25%</th>
+          <td>4.000000e+03</td>
+          <td>2.500000e+01</td>
+          <td>0.000000</td>
+          <td>2.000000</td>
+        </tr>
+        <tr>
+          <th>50%</th>
+          <td>1.374997e+04</td>
+          <td>7.163012e+02</td>
+          <td>0.000000</td>
+          <td>12.000000</td>
+        </tr>
+        <tr>
+          <th>75%</th>
+          <td>4.524790e+04</td>
+          <td>6.004628e+03</td>
+          <td>1.000000</td>
+          <td>63.000000</td>
+        </tr>
+        <tr>
+          <th>max</th>
+          <td>1.000000e+08</td>
+          <td>6.225355e+06</td>
+          <td>1.000000</td>
+          <td>105857.000000</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
